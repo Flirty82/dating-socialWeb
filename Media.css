@@ -1,0 +1,45 @@
+.media-page {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.media-item {
+  background-color: #fff0f5;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.media-item img,
+.media-item video {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.media-item input {
+  width: 100%;
+  padding: 0.4rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.upload-btn {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  background-color: hotpink;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.upload-btn:hover {
+  background-color: #ff69b4;
+}

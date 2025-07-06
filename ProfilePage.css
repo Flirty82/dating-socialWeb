@@ -1,0 +1,18 @@
+.profile-layout {
+  display: flex;
+}
+
+.profile-content {
+  flex-grow: 1;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #fff5f9;
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}

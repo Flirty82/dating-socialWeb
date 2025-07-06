@@ -1,0 +1,49 @@
+/* Default styles*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: gray;
+}
+/*Containers*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.post-card {
+    background: gray;
+    color: black;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+/*Responsive image in posts*/
+.post-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+/*Mobile styles*/
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+}
+.post-card {
+    padding: 10px;
+}
+input,
+textarea,
+button {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+image {
+    max-width: 100%;
+    height: auto;
+}
+.mobile-stack {
+    display: flex;
+    flex-direction: column;
+}

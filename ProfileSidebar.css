@@ -1,0 +1,39 @@
+.profile-sidebar {
+  width: 220px;
+  background-color: #fff0f5;
+  padding: 2rem 1rem;
+  border-right: 2px solid #ff69b4;
+  min-height: 100vh;
+  position: sticky;
+  top: 70px;
+}
+
+.profile-sidebar h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #ff1493;
+}
+
+.profile-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-sidebar li {
+  margin-bottom: 1rem;
+}
+
+.profile-sidebar a {
+  text-decoration: none;
+  color: #ff1493;
+  font-weight: bold;
+}
+
+.profile-sidebar a.active {
+  color: hotpink;
+  border-left: 4px solid hotpink;
+  padding-left: 8px;
+}
+.profile-sidebar a:hover {
+  color: #ff69b4;
+}
